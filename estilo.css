@@ -26,3 +26,11 @@ main {
     width: 30px;
     text-align: center;
 }
+
+.hamburguer-button[aria-expanded="false"] .icon::before{
+    content: "/2630";
+}
+
+.hamburguer-button[aria-expanded="true"] .icon::before{
+    content: "/2715";
+}
