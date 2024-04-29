@@ -44,10 +44,6 @@ main {
     flex-direction: column;
 }
 
-.hamburguer-button-js-anabled{
-    display: block;
-}
-
 .menu li a{
     color: white;
     padding: 10px;
@@ -68,6 +64,10 @@ main {
     font-size: 24px;
     padding: 14px;
     cursor: pointer;
+}
+
+.hamburguer-button-js-anabled{
+    display: block;
 }
 
 @media(min-width:768px) {
