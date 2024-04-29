@@ -8,8 +8,21 @@ main {
 }
 
 .nav-menu{
-    background-color: black;
+    background-color:#333;
     color: white;
     padding: 10px;
     position: relative;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+}
+
+.hamburguer-button.icon{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
 }
