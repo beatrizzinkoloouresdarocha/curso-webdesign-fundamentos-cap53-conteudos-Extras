@@ -35,7 +35,14 @@ main {
     content: "/2715";
 }
 
+.menu li a{
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
 .menu li a:hover,
-.menu li a:focus{
+.menu li a:focus {
     background-color: #555;
 }
