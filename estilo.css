@@ -35,6 +35,15 @@ main {
     content: "/2715";
 }
 
+.hamburguer-button-js-anabled + .menu{
+    display: flex;
+    position: absolute;
+    width: calc(100%-30px);
+    left: 15px;
+    top:60px;
+    flex-direction: column;
+}
+
 .menu li a{
     color: white;
     padding: 10px;
