@@ -36,7 +36,7 @@ main {
 }
 
 .menu li a{
-    color: white;
+    color: rgb(15, 229, 229);
     padding: 10px;
     display: block;
     text-decoration: none;
