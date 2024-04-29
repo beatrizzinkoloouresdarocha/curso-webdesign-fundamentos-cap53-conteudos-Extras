@@ -34,3 +34,8 @@ main {
 .hamburguer-button[aria-expanded="true"] .icon::before{
     content: "/2715";
 }
+
+.menu li a:hover,
+.menu li a:focus{
+    background-color: #555;
+}
